@@ -1,0 +1,6 @@
+Document - Large (1024 X 768 px)
+Document - Small (800 X 600 px)
+Web - Large (640 X 480 px)
+Web - Small (448 X 336 px)
+E-mail - Large (314 X 235 px)
+E-mail - Small (160 X 160 px)

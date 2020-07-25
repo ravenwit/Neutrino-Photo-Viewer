@@ -1,0 +1,57 @@
+Alpha 
+PAlpha
+Canonical
+Extended
+Argb (16 bpp)  1555
+Argb (32 bpp) 
+Argb (64 bpp) 
+Gray Scale (16 bpp) 
+Rgb (16 bpp) 555 
+Rgb (16 bpp) 565
+Rgb (24 bpp)
+Rgb (32 bpp)
+Rgb (48 bpp)
+Indexed
+Indexed (1 bpp)
+Indexed (4 bpp)
+Indexed (8 bpp)
+PArgb (32 bpp)
+PArgb (64 bpp)
+Don't Care
+
+JPEG
+PNG
+BMP
+GIF
+TIFF
+EMF
+EXIF
+WMF
+
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at WindowsApplication1.Form1.Button1_Click(Object sender, EventArgs e) in C:\Users\Shakir\AppData\Local\Temporary Projects\WindowsApplication1\Form1.vb:line 8
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.PerformClick()
+   at System.Windows.Forms.Form.ProcessDialogKey(Keys keyData)
+   at System.Windows.Forms.Control.ProcessDialogKey(Keys keyData)
+   at System.Windows.Forms.Control.PreProcessMessage(Message& msg)
+   at System.Windows.Forms.Control.PreProcessControlMessageInternal(Control target, Message& msg)
+   at System.Windows.Forms.Application.ThreadContext.PreTranslateMessage(MSG& msg)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FPreTranslateMessage(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(ApplicationContext context)
+   at Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.OnRun()
+   at Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.DoApplicationModel()
+   at Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.Run(String[] commandLine)
+   at WindowsApplication1.My.MyApplication.Main(String[] Args) in 17d14f5c-a337-4978-8281-53493378c1071.vb:line 81
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()

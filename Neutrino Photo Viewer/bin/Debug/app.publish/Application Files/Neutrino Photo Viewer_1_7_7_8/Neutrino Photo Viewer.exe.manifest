@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Neutrino Photo Viewer.exe" version="1.7.7.8" publicKeyToken="b4be80fd9a5ee364" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:publisher="Neutrino" asmv2:product="Neutrino Photo Viewer" asmv2:supportUrl="http://www.shakir-world.0fees.net/" co.v1:errorReportUrl="http://www.shakir-world.0fees.net/index.php?p=1_3" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Neutrino Photo Viewer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Neutrino Photo Viewer.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Neutrino Photo Viewer.exe" size="1167360">
+      <assemblyIdentity name="Neutrino Photo Viewer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>23SPnkq0K4HRE5+B1PYVq/hR5Yc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Neutrino Photo Viewer.exe.config" size="2338">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Kn+PY3FmtauaU9Xl6eAkngOwjf0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Platinum\Shakir" issuerKeyHash="e745c5f75e2578e13e485bd7f33a1e03c0ff1066" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>mwCKEzLu0h1FLe+/zL0vQzuYpOU=</DigestValue></Reference></SignedInfo><SignatureValue>bXDCIkwidhf8fI54yLeNxjKq/Sjlscw6tYSjWyNHaBC/QqdqUqDlLTBmS7xaqAs5r3/Cj8VGQwzs+IBJ5qQ7ReykcgwDnQpDv2zVbgVluZjN3Km+656wk+nniP55uSdWuSVrjBzNOQw718gpbtSCfHJlDfQ8vY2q0aviQylvpqA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nBFU4NciONGJKZYDNU96zRYUz+nshADwNyk24oWQvIWu/+HFLj5VhOAVT3M8TWtHo6Qx0+8/LziaYPAsK6G6YKPhxLIPlrp0LEMIDUtGApXucgw4h0YWGEDiYJixmnVAN95Cturjae9dc/uybpCS270UNIf8Buf/NvPLYDoJcck=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e5a4983b432fbdccbfef2d451dd2ee32138a009b" Description="" Url=""><as:assemblyIdentity name="Neutrino Photo Viewer.exe" version="1.7.7.8" publicKeyToken="b4be80fd9a5ee364" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Platinum\Shakir</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>O1mMCulyzic8N/Mv465YiOoDL8o=</DigestValue></Reference></SignedInfo><SignatureValue>RfZrqQeDsuRoF6ahHlEuiMJmSzUPGoeAcERUEocounFQFVA0NLLGjV3hVWOSdhwmgobWoIH8nBXKDjGA1X1l7Y3PXZL6wzBRmF5vzs3Bgj+RsdA3ODTPPJNxAReIgrCh7WjNmscsQSZR6IwXhgEzfRlD6m3n2Abw3MuKqhf6nmo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nBFU4NciONGJKZYDNU96zRYUz+nshADwNyk24oWQvIWu/+HFLj5VhOAVT3M8TWtHo6Qx0+8/LziaYPAsK6G6YKPhxLIPlrp0LEMIDUtGApXucgw4h0YWGEDiYJixmnVAN95Cturjae9dc/uybpCS270UNIf8Buf/NvPLYDoJcck=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQTzWJH4tzoodJD6X41zEC+zANBgkqhkiG9w0BAQUFADApMScwJQYDVQQDHh4AUABsAGEAdABpAG4AdQBtAFwAUwBoAGEAawBpAHIwHhcNMTIwMTI4MDkxNjUzWhcNMTMwMTI3MTUxNjUzWjApMScwJQYDVQQDHh4AUABsAGEAdABpAG4AdQBtAFwAUwBoAGEAawBpAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJwRVODXIjjRiSmWAzVPes0WFM/p7IQA8DcpNuKFkLyFrv/hxS4+VYTgFU9zPE1rR6OkMdPvPy84mmDwLCuhumCj4cSyD5a6dCxDCA1LRgKV7nIMOIdGFhhA4mCYsZp1QDfeQrbq42nvXXP7sm6Qktu9FDSH/Abn/zbzy2A6CXHJAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAYYGTS4VMduHGdpFUa0kcUl7GSUWRL4ciqdBGb09ZKXQ+gw/aIV1C7h5bBlAcM0YHi+vR6KJTeEnaV/DBWqa2e3Rr5d8ICZ01nES7eegSx/kl4ixjXJNoy71XpfvIHVI5vmWMvSFWFPj9Z9lF9vvjmresp9OZCROqjnGmOTXEzxQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

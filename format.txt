@@ -1,0 +1,28 @@
+Alpha                                     
+Canonical                                       
+Extended
+Format16bppArgb1555()
+Format16bppGrayScale()
+Format16bppRgb555()
+Format16bppRgb565()
+Format1bppIndexed()
+Format24bppRgb()
+Format32bppArgb()
+Format32bppPArgb()
+Format32bppRgb()
+Format32bppArgb()
+Format32bppPArgb()
+Format32bppRgb()
+Format48bppRgb()
+Format4bppIndexed()
+Format64bppArgb()
+Format64bppPArgb()
+Format8bppIndexed()
+PAlpha()
+
+
+
+Alpha: Alpha VAlue
+Canonical : The Default pixel format of 32 bit per pixel. The format specifies 24-bit depth and 8-bit alpha channel
+Extended : Reserved
+Format16bppArgb1555 : The pixel format is 16 bits per pixel. The color information specifies 32,768 
